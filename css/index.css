@@ -127,3 +127,35 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px 15px;
+    }
+    
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #about img,
+    .aboutme {
+        width: 100%;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+    }
+    
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    nav a {
+        margin: 0 10px;
+    }
+}
