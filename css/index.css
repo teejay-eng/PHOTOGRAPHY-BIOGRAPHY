@@ -20,3 +20,10 @@ header{
     flex-wrap: wrap;
     padding: 28px 32px;
 }
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 4px;
+}
