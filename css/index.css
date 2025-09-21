@@ -119,3 +119,11 @@ section h2{
 .contact-form button:hover {
     background: #444;
 }
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
